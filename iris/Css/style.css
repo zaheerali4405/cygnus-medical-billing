@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+.left-flower{
+	margin: -21px 0 0 -55px;
+    transform: rotate(117deg);
+}
+.right-flower{
+	margin: -26px -64px -5px 0;
+    transform: rotate(-99deg);
+}
+.main-heading{
+	font-family: 'Aladin', cursive;
+    padding-top: 22px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  .right-flower {
+	  margin: -26px -152px 0 0 !important;
+  }
+}
